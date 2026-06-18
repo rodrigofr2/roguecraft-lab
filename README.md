@@ -19,6 +19,10 @@ A única dependência externa é a biblioteca PPlay, fornecida pela disciplina, 
 encapsula o pygame. Todo acesso a teclado, mouse, imagem, som e tela passa pela
 PPlay; o jogo não chama o pygame diretamente.
 
+Os sprites e sons utilizados vêm do **Ninja Adventure Asset Pack**, de Pixel-Boy
+(disponível em https://pixel-boy.itch.io/ninja-adventure-asset-pack), cujo uso é
+permitido. Veja a seção [Créditos e assets](#créditos-e-assets) para detalhes.
+
 ## Como executar
 
 Requisitos: Python 3 e pygame instalado (utilizado internamente pela PPlay).
@@ -133,3 +137,16 @@ do que nasce em cada tile é tomada uma única vez e guardada, de modo que a mes
 planta reaparece no mesmo lugar quando o jogador volta. A chuva é composta por
 gotas e respingos em coordenadas de mundo, desenhados como o chão, de forma que o
 jogador atravessa a chuva em vez de ela segui-lo.
+
+## Créditos e assets
+
+Os recursos visuais e sonoros (sprites, tiles e efeitos) são do **Ninja Adventure
+Asset Pack**, criado por **Pixel-Boy** e a comunidade.
+
+- Pacote: https://pixel-boy.itch.io/ninja-adventure-asset-pack
+- Autor: Pixel-Boy (https://pixel-boy.itch.io/)
+
+O asset pack permite o uso de seus arquivos, inclusive em projetos comerciais e
+não comerciais, mantendo os créditos ao autor. Os créditos acima cumprem essa
+condição. Todo o demais código deste repositório é de autoria de Rodrigo
+Fernandes Ribeiro.
